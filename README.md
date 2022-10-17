@@ -64,4 +64,9 @@ make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/runTests.dir/all] Error 2
 make: *** [Makefile:91: all] Error 2
 alex@alex-HP-Pavilion-Power-Laptop-15-cb0xx:~/Documents/DPS/lab2-unit-tests-agarcf15$ 
 
+
+Este error se ha solucionado gracias a un compañero de clase, indicando la línea que falla en link.txt en CMakeFiles; cambiando "-lThreads:Threads por -pthread
+
+volviendo a ejecutar `make` ya compila
+
 `./runTest`
